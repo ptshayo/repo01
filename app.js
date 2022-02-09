@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World, This is my new update - directly on GIT!\n');
+  res.send('Hello World, This is example of IS and Source Code - 09-Feb-22\n');
 });
 
 app.listen(8080, function () {
